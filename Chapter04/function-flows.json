@@ -112,25 +112,25 @@
         "id": "3935b16b.95d8ae",
         "type": "switch",
         "z": "e843ae6d.0d38d",
-        "name": "Big and Small",
+        "name": "Small or Big",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
             {
-                "t": "lt",
-                "v": "6",
+                "t": "lte",
+                "v": "5",
                 "vt": "num"
             },
             {
-                "t": "gt",
-                "v": "5",
+                "t": "gte",
+                "v": "6",
                 "vt": "num"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 440,
+        "x": 430,
         "y": 160,
         "wires": [
             [
