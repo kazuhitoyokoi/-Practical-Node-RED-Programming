@@ -117,14 +117,12 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "lte",
-                "v": "5",
+                "t": "lt",
+                "v": "6",
                 "vt": "num"
             },
             {
-                "t": "gte",
-                "v": "6",
-                "vt": "num"
+                "t": "else"
             }
         ],
         "checkall": "true",
